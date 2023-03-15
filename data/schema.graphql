@@ -1,0 +1,7 @@
+type Question @model {
+  id: String!
+  question: String!
+  correct_answer: String!
+  incorrect_answers: [String!]!
+}
+

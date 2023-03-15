@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@azure/static-web-apps-cli": "^1.1.0",
+    "dotenv-cli": "^7.1.0"
+  },
+  "scripts": {
+    "start": "swa start",
+    "postinstall": "cd frontend && npm install"
+  }
+}
